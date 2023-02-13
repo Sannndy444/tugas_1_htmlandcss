@@ -4,21 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="jpg" href="/gambar/smk-negeri-1-probolinggo.jpg">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="atas_kanan">
-        <table>
-            <td>Tentang Saya</td>
-            <td>Social Media</td>
-            <td>Biodata</td>
-        </table>
-    </div>
-    <div class="gambar">
-        <table>
-            <td>img</td>
+    <div class="tabel">
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="5" cellspacing="0">
+                        <form action="">
+                            <tr>
+                                <td rowspan="2">
+                                    <img src="img/logo_smexa.png" width="90px">
+                                </td>
+                                <td>
+                                    <h2>BIODATA PERSERTA DIDIK</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    SMKN 1 PROBOLINGGO
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                    <table border="0">
+                                        <tr>
+                                            <td rowspan="8">
+                                                <img src="img/identitas.jpg" width="80px">
+                                            </td>
+                                            <td>
+                                                <label for="nama">Nama Lengkap</label>
+                                            </td>
+                                            <td>
+                                                :
+                                            </td>
+                                            <td>
+                                                <input type="text" name="nama" id="nama" >
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="kelamin">Jenis kelamin</label>
+                                            </td>
+                                            <td>
+                                                :
+                                            </td>
+                                            <td>
+                                                <input type="radio" id="kelamin1">Laki-Laki
+                                                <input type="radio" id="kelamin2">Perempuan
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="nisn">NISN</label>
+                                            </td>
+                                            <td>
+                                                :
+                                            </td>
+                                            <td>
+                                                <input type="text" name="nisn" id="nisn" placeholder="NISN harus 10 digit">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="jurusan">Kompetensi Keahlian</label>
+                                            </td>
+                                            <td>
+                                                :
+                                            </td>
+                                            <td>
+                                                <select name="jurusan" id="jurusan">
+                                                    <option value="rpl">Rekayasa Perangkat Lunak</option>
+                                                    <option value="bdp">Bisnis Digital</option>
+                                                    <option value="mp">Manajemen Perkantoran</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="email">E-Mail</label>
+                                            </td>
+                                            <td>
+                                                :
+                                            </td>
+                                            <td>
+                                                <input type="email" id="email" placeholder="contoh@gmail.com">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3">
+                                                <label for="sosmed">Social Media</label>
+                                            </td>
+                                            <td rowspan="3">
+                                                :
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" id="sosmed">Instagram
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="sosmed" id="sosmed">Tik Tok
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="sosmed" id="sosmed">Facebook
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/alamat.png" width="80px">
+                                            </td>
+                                            <td>
+                                                <label for="alamat">Alamat Lengkap</label>
+                                            </td>
+                                            <td>
+                                                :
+                                            </td>
+                                            <td>
+                                                <textarea name="alamat" id="alamat" cols="23" rows="10"></textarea>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
         </table>
     </div>
 </body>
